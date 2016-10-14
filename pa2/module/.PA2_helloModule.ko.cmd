@@ -1,0 +1,1 @@
+cmd_/home/user/Documents/pa2/module/PA2_helloModule.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/user/Documents/pa2/module/PA2_helloModule.ko /home/user/Documents/pa2/module/PA2_helloModule.o /home/user/Documents/pa2/module/PA2_helloModule.mod.o

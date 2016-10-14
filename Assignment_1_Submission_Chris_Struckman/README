@@ -1,0 +1,17 @@
+Chris Struckman < chst7928@colorado.edu >  < 303 587 5735 > 
+
+Files That I Changed and Tree To Them:
+
+arch/x86/kernel/simple_add.c -Actual function for simple_add
+arch/x86/kernel/Makefile - Makefile 
+arch/x86/syscalls/syscall_64.tbl -Created new syscall numbers for the kernel
+includes/linux/syscalls.h - Voided the functions
+
+My test file for simple_add:
+test_simple_add.c - Test function
+
+To Compile that code:
+gcc -o output test_simple_add.c
+ 
+To Run:
+./output
